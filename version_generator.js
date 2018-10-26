@@ -3,16 +3,16 @@ var path = require('path');
 var crypto = require('crypto');
 
 var manifest = {
-    packageUrl: 'http://0.0.0.0:8000/tutorial-hot-update/remote-assets/',
-    remoteManifestUrl: 'http://0.0.0.0:8000/tutorial-hot-update/remote-assets/project.manifest',
-    remoteVersionUrl: 'http://0.0.0.0:8000/tutorial-hot-update/remote-assets/version.manifest',
-    version: '1.0.0',
+    packageUrl: 'https://hotupdate-1256071792.cos.ap-beijing.myqcloud.com/remote-assets/',
+    remoteManifestUrl: 'https://hotupdate-1256071792.cos.ap-beijing.myqcloud.com/remote-assets/project.manifest',
+    remoteVersionUrl: 'https://hotupdate-1256071792.cos.ap-beijing.myqcloud.com/remote-assets/version.manifest',
+    version: '1.0.1',
     assets: {},
     searchPaths: []
 };
 
-var dest = './remote-assets/';
-var src = './jsb/';
+var dest = './assets/';
+var src = './build/jsb-default/';
 
 // Parse arguments
 var i = 2;

@@ -11,7 +11,7 @@ cc.Class({
             default: null,
             type: cc.Button
         },
-
+        updateUI: cc.Node,
     },
 
     // use this for initialization
@@ -30,9 +30,9 @@ cc.Class({
     onClike(obj, data){
         console.log('----> data:', data);
         if(data == 1){
-            cc.director.loadScene('game1');
+            // cc.director.loadScene('game1');
         }else if(data == 2){
-            cc.director.loadScene('game2');
+            // cc.director.loadScene('game2');
         }else{
 
         }
