@@ -2191,14 +2191,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 13,
-      "g": 214,
-      "b": 53,
+      "r": 0,
+      "g": 250,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 293.48,
+      "width": 280,
       "height": 40
     },
     "_anchorPoint": {
@@ -2244,8 +2244,8 @@
     "_srcBlendFactor": 1,
     "_dstBlendFactor": 771,
     "_useOriginalSize": false,
-    "_string": "BBBBBBBBBBB",
-    "_N$string": "BBBBBBBBBBB",
+    "_string": "更新成功了！！",
+    "_N$string": "更新成功了！！",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
